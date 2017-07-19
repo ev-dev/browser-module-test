@@ -1,0 +1,28 @@
+{
+  "name": "modules-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mymodule1.js",
+  "scripts": {
+    "start": "nodemon -e html,css,js app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ev-dev/browser-module-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ev-dev/browser-module-test/issues"
+  },
+  "homepage": "https://github.com/ev-dev/browser-module-test#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2",
+    "volleyball": "^1.4.1",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
