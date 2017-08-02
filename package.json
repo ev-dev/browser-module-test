@@ -2,9 +2,9 @@
   "name": "modules-test",
   "version": "1.0.0",
   "description": "",
-  "main": "mymodule1.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon -e html,css,js app.js"
+    "start": "nodemon -e html,js -w app.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,6 @@
     "express": "^4.15.3"
   },
   "devDependencies": {
-    "morgan": "^1.8.2",
-    "volleyball": "^1.4.1",
-    "webpack-dev-server": "^2.5.1"
+    "volleyball": "^1.4.1"
   }
 }
